@@ -81,25 +81,25 @@ export const workData = [
     title: 'MATHER AFRICA',
     description: '2025',
     bgImage: '/work-1.png',
-    link: 'https://imagekit.io/dashboard/media-library/L01BVEhFUiBBRlJJQ0EgMjAyNQ'
+    link: 'https://flic.kr/s/aHBqjCK4jF'
   },
   {
     title: 'JESA FAMILY DAY',
     description: '(JFD)',
     bgImage: '/work-2.png',
-    link: 'https://imagekit.io/dashboard/media-library/L0pFU0EgRkFNSUxZIERBWShwcm9wb3NpdGlvbik'
+    link: 'https://flic.kr/s/aHBqjCKf5s'
   },
   {
     title: 'NCI DECOR TV',
     description: '(NOSTALGIE FUN OUTDOOR)',
     bgImage: '/work-3.png',
-    link: 'https://imagekit.io/dashboard/media-library/L1JBRElPIE5PU1RBTEdJRQ'
+    link: 'https://flic.kr/s/aHBqjCKbZy'
   },
   {
     title: 'CONFERANCE GUICHE UNIQUE',
     description: '(GUA)',
     bgImage: '/work-4.png',
-    link: 'https://imagekit.io/dashboard/media-library/L0NPTkZFUkVOQ0UgR1VJQ0hFVCBVTklRVUUoc2PDqG5lIEdVQSk'
+    link: 'https://flic.kr/s/aHBqjCKcNh'
   },
 ];
 
