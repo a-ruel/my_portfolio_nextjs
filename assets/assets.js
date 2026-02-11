@@ -12,7 +12,6 @@ import git from './git.png';
 import mongodb from './mongodb.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
-import sketchsup from './sketchsup.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
@@ -48,7 +47,6 @@ export const assets = {
     vscode,
     firebase,
     figma,
-    sketchsup,
     git,
     mongodb,
     right_arrow_white,
@@ -79,27 +77,31 @@ export const assets = {
 };
 
 export const workData = [
-    {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
-    {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX desi',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
-]
+  {
+    title: 'MATHER AFRICA',
+    description: '2025',
+    bgImage: '/work-1.png',
+    link: 'https://imagekit.io/dashboard/media-library/L01BVEhFUiBBRlJJQ0EgMjAyNQ'
+  },
+  {
+    title: 'JESA FAMILY DAY',
+    description: '(JFD)',
+    bgImage: '/work-2.png',
+    link: 'https://imagekit.io/dashboard/media-library/L0pFU0EgRkFNSUxZIERBWShwcm9wb3NpdGlvbik'
+  },
+  {
+    title: 'RADIO NOSTALGIE',
+    description: '(RN)',
+    bgImage: '/work-3.png',
+    link: 'https://imagekit.io/dashboard/media-library/L1JBRElPIE5PU1RBTEdJRQ'
+  },
+  {
+    title: 'CONFERANCE GUICHE UNIQUE',
+    description: '(GUA)',
+    bgImage: '/work-4.png',
+    link: 'https://imagekit.io/dashboard/media-library/L0NPTkZFUkVOQ0UgR1VJQ0hFVCBVTklRVUUoc2PDqG5lIEdVQSk'
+  },
+];
 
 export const serviceData = [
     { icon: assets.web_icon, title: 'Scenographer', description: 'Designing immersive spaces for stage and events. I bring stories to life by shaping space, light, and volumes to leave a lasting impression....', link: '' },
@@ -109,7 +111,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Logiciels', description: 'Revit, sketchsup, , Enscape' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Logiciels', description: 'Revit, sketchup, , Enscape' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'DESA,Institut national superieur des arts et de l\'action culturelles' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 200 projects' }
 ];

@@ -1,9 +1,9 @@
 import React from "react";
 import { assets, workData } from "../../assets/assets";
 import Image from "next/image";
-import { motion, spring } from "motion/react";
+import { motion } from "motion/react";
 
-const work = ({ isDarkMode }) => {
+const Work = ({ isDarkMode }) => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -46,10 +46,13 @@ const work = ({ isDarkMode }) => {
         className="grid grid-cols-auto my-10 gap-5 dark:text-black"
       >
         {workData.map((project, index) => (
-          <motion.div
+          <motion.a
+            key={index}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
-            key={index}
             className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
@@ -62,27 +65,26 @@ const work = ({ isDarkMode }) => {
                 <Image src={assets.send_icon} alt="send icon" className="w-5" />
               </div>
             </div>
-          </motion.div>
+          </motion.a>
         ))}
       </motion.div>
 
       <motion.a
-      initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1.1, delay: 0.5 }}
-
-        href=""
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.1, delay: 0.5 }}
+        href="#"
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
-        Show more{" "}
+        Show more
         <Image
           src={isDarkMode ? assets.right_arrow_white : assets.right_arrow_bold}
           alt="Right arrow"
           className="w-4"
-        />{" "}
+        />
       </motion.a>
     </motion.div>
   );
 };
 
-export default work;
+export default Work;
