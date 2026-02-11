@@ -111,7 +111,7 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Logiciels', description: 'Revit, sketchup, , Enscape' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Logiciels', description: 'Revit, sketchup, Enscape' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'DESA,Institut national superieur des arts et de l\'action culturelles' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 200 projects' }
 ];
