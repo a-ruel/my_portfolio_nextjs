@@ -90,8 +90,8 @@ export const workData = [
     link: 'https://imagekit.io/dashboard/media-library/L0pFU0EgRkFNSUxZIERBWShwcm9wb3NpdGlvbik'
   },
   {
-    title: 'RADIO NOSTALGIE',
-    description: '(RN)',
+    title: 'NCI DECOR TV',
+    description: '(NOSTALGIE FUN OUTDOOR)',
     bgImage: '/work-3.png',
     link: 'https://imagekit.io/dashboard/media-library/L1JBRElPIE5PU1RBTEdJRQ'
   },
