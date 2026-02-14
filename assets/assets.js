@@ -101,6 +101,31 @@ export const workData = [
     bgImage: '/work-4.png',
     link: 'https://flic.kr/s/aHBqjCKcNh'
   },
+  {
+    title: 'CONCERT DE JOSEY',
+    description: '',
+    bgImage: '/J8.jpg',
+    link: 'https://flic.kr/s/aHBqjCKqFp'
+  },
+
+    {
+    title: 'STAND SARA',
+    description: '',
+    bgImage: 'S5.jpg',
+    link: 'https://flic.kr/s/aHBqjCKqAk'
+  },
+    {
+    title: 'PRIX UFHB',
+    description: '',
+    bgImage: '/UFHB2.jpg',
+    link: 'https://flic.kr/s/aHBqjCKyP6'
+  },
+    {
+    title: 'BET MOMO',
+    description: '',
+    bgImage: '/BM3.jpg',
+    link: 'https://flic.kr/s/aHBqjCKr7u'
+  },
 ];
 
 export const serviceData = [
