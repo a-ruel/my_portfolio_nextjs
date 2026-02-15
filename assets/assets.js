@@ -78,7 +78,7 @@ export const assets = {
 
 export const workData = [
   {
-    title: 'MATHER AFRICA',
+    title: 'MOTHER AFRICA',
     description: '2025',
     bgImage: '/work-1.png',
     link: 'https://flic.kr/s/aHBqjCK4jF'
@@ -96,7 +96,7 @@ export const workData = [
     link: 'https://flic.kr/s/aHBqjCKbZy'
   },
   {
-    title: 'CONFERANCE GUICHE UNIQUE',
+    title: 'CONFERENCE GUICHET UNIQUE',
     description: '(GUA)',
     bgImage: '/work-4.png',
     link: 'https://flic.kr/s/aHBqjCKcNh'
@@ -109,7 +109,7 @@ export const workData = [
   },
 
     {
-    title: 'STAND SARA',
+    title: 'Sand SARA',
     description: '',
     bgImage: 'S5.jpg',
     link: 'https://flic.kr/s/aHBqjCKqAk'
