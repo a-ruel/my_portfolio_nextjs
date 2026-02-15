@@ -96,7 +96,7 @@ export const workData = [
     link: 'https://flic.kr/s/aHBqjCKbZy'
   },
   {
-    title: 'CONFERENCE GUICHET UNIQUE',
+    title: 'CONFERENCE GUICHET UNIQUE AUTO-MOBILE',
     description: '(GUA)',
     bgImage: '/work-4.png',
     link: 'https://flic.kr/s/aHBqjCKcNh'
@@ -109,7 +109,7 @@ export const workData = [
   },
 
     {
-    title: 'Sand SARA',
+    title: 'SARA',
     description: '',
     bgImage: 'S5.jpg',
     link: 'https://flic.kr/s/aHBqjCKqAk'
