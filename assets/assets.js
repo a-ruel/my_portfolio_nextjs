@@ -115,7 +115,7 @@ export const workData = [
     link: 'https://flic.kr/s/aHBqjCKqAk'
   },
     {
-    title: 'PRIX UFHB',
+    title: 'PRIX UNESCO FHB',
     description: '',
     bgImage: '/UFHB2.jpg',
     link: 'https://flic.kr/s/aHBqjCKyP6'
